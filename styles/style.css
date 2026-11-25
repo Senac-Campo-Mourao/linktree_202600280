@@ -1,0 +1,19 @@
+body {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #ffffff;
+    background: linear-gradient(160deg, #6d28d9 0%, #a21caf 55%, #db2777 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.pagina {
+    max-width: 36rem;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 3.5rem 1.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
