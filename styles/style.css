@@ -1,6 +1,11 @@
 :root{
     --degrade:linear-gradient(160deg, #6d28d9 0%, #a21caf 55%, #db2777 100%);
     --cor-text-claro: #ffffff;
+    --cor-botao:#ffffff;
+    --cor-text-botao:#3b0764;
+    --cor-destaque: #fde047;
+    --raio-pilula: 999px;
+    --largura-max: 36rem;
 }
 
 body {
@@ -29,4 +34,5 @@ body {
     padding: 1.1rem 1.5rem;
     font-weight: 600;
     color: var(--cor-text-claro);
+    background-color: ;
 }
