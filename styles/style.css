@@ -1,8 +1,8 @@
-:root{
-    --degrade:linear-gradient(160deg, #6d28d9 0%, #a21caf 55%, #db2777 100%);
+:root {
+    --degrade: linear-gradient(160deg, #6d28d9 0%, #a21caf 55%, #db2777 100%);
     --cor-text-claro: #ffffff;
-    --cor-botao:#ffffff;
-    --cor-text-botao:#3b0764;
+    --cor-botao: #ffffff;
+    --cor-text-botao: #3b0764;
     --cor-destaque: #fde047;
     --raio-pilula: 999px;
     --largura-max: 36rem;
@@ -28,11 +28,22 @@ body {
     text-align: center;
 }
 
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 .link {
     display: block;
     margin-bottom: 1rem;
     padding: 1.1rem 1.5rem;
     font-weight: 600;
-    color: var(--cor-text-claro);
-    background-color: ;
+    color: var(--cor-text-botao);
+    background-color: var(--cor-botao);
+    border-radius: var(--raio-pilula);
+    box-shadow: 0 6px 18px rgba(59, 7, 100, 0.25);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    text-decoration: none;
+    font-size: 1.2rem;
 }
